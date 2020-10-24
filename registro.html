@@ -6,7 +6,12 @@
     <title>Registre-se</title>
     <link rel="stylesheet" href="./globalforms.css">
     <link rel="stylesheet" href="./registro.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./scripts/registro.js"></script>
+    <script>
+        $(document).ready(()=>{
+        })
+    </script>
 </head>
 
 <body>
@@ -23,12 +28,10 @@
         </div>
     </header>
     <main>
-
-        <>
         <div class="container-form">
-            <h3 id="titulo">Seus dados</h3>
+            <h3 id="titulo" class="user">Seus dados</h3>
             <hr>
-            <form action="#">
+            <form action="#" class="user">
 
                 <div class="input-block">
                     <label for="nome">Nome Completo</label>
@@ -93,7 +96,7 @@
                 <p>Importante!<br>
                     Preencha todos os dados.</p>
             </div>
-            <button onclick="enviar()">Salvar Cadastro</button>
+            <button onclick="enviar()" class="user">Salvar Cadastro</button>
         </footer>
     </main>
 
