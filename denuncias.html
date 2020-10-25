@@ -11,9 +11,9 @@
 
 <body>
 
-    <!-- header é a parte preta do topo, coloquei duas divs para estilizar cada uma de um jeito-->
-    <header>        
-        <div class=container-img>
+    <header>  <!--Na header em CSS tem uma imagem de background-->
+
+        <div class=imagem_voltar>
             <img src="./imagens/arrow-left-circle-fill.svg">
             <button onclick="enviar()">Fazer uma denuncia</button>
         </div>
@@ -27,25 +27,35 @@
     
     <main>
         
-        <div class="container-form">
+        <div class="container">
             
+            <div class="block">
+                <h3 id="titulo">Nome da empresa</h3>
+                <h2>Título da denuncia aqui</h2>
+                <h4>Apelido</h4>
+                <h4>Data e Hora</h4>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
 
-            <form action="#">
+            <div class="block">
+                <h3 id="titulo">Avaliação</h3>
+                <h2>Resposta da empresa</h2>
+                <h4>Nome da empresa</h4> 
+                <h4>Data e Hora</h4>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
 
-                <div class="input-block">
-                    <h3 id="titulo">Nome da empresa</h3>
-                    <h2>Título da denuncia aqui</h2>
-                    <h4>Apelido</h4>
-                    <h4>Data e Hora</h4>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
-                    <hr>
-                </div>
-
-
-            </form>
+            <div class="block">
+                <h3 id="titulo">Nome da empresa</h3>
+                <h2>Título da denuncia aqui</h2>
+                <h4>Apelido</h4>
+                <h4>Data e Hora</h4>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            
         </div>
         <footer>
-        
+            
         </footer>
     </main>
 
