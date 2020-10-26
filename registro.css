@@ -2,7 +2,6 @@ body {
     background-color: #ccc;
 }
 
-
 header {
     background-color: #000000;
     padding-bottom: 48px;
@@ -28,11 +27,15 @@ header .enunciado {
     margin: -38px auto 0px 20%;
 }
 
+/*Display flex + justify content:space between para fazer os elementos serem divididos com um espaço 
+entre eles*/
+
 header .container-img {
     display: flex;
     justify-content: space-between;
     padding: 36px 42px 0px;
 }
+
 
 /*Margem negativa para fazer o formulário subir um pouco para o cabeçalho
 e max-width para limitar a largura do formulário em telas muito grandes*/
@@ -40,7 +43,7 @@ e max-width para limitar a largura do formulário em telas muito grandes*/
 main .container-form {
     width: 60%;
     max-width: 1400px;
-    display:block;
+    display: block;
     margin: -60px auto 0px;
     padding: 0px 0px 0px;
     background-color: white;
@@ -65,14 +68,13 @@ main .container-form form {
     text-align: center;
 }
 
-
-main .container-form .input-block{
+main .container-form .input-block {
     position: relative;
     margin: 8px auto 8px;
     width: 80%;
 }
 
-main .container-form .input-block input{
+main .container-form .input-block input {
     width: 100%;
     height: 40px;
     margin: 8px auto 8px;
@@ -80,7 +82,7 @@ main .container-form .input-block input{
     border-color: #cccccc;
 }
 
-main .container-form .input-block label{
+main .container-form .input-block label {
     text-align: start;
     font-weight: bold;
     display: block;
@@ -98,7 +100,6 @@ main .container-form .termos {
     text-align: start;
     margin-left: 10%;
 }
-
 
 main .container-form .termos input {
     display: inline-flex;
@@ -132,7 +133,7 @@ footer .left {
     justify-content: center;
 }
 
-footer .left img{
+footer .left img {
     width: 32px;
     height: 32px;
 }
@@ -146,14 +147,13 @@ footer button {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: bold;
-
     background-color: #E4E849;
     color: #000000;
     height: 40px;
-    width:20%;
+    width: 20%;
     border-radius: 10px;
 }
 
-footer button:hover{
+footer button:hover {
     background-color: #a8ab30;
 }
