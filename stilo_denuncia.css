@@ -1,0 +1,66 @@
+body {
+    background-color: #ccc;
+}
+
+header {
+    padding-bottom: 148px;
+    background-image: url("./imagens/pexels-fauxels-3184418\(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 50%;
+}
+
+header button {
+    background-color: #E4E849;
+}
+
+header h2 {
+    color: #E4E849;
+    margin-top: 0px;
+    
+}
+
+header .enunciado {
+    display: block;
+    margin: -38px auto 0px 20%;
+}
+
+header .imagem_voltar {
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 42px 0px;
+
+}
+
+main {
+    display: block;
+}
+
+main .container {
+    width: 60%;
+    max-width: 1400px;
+    display:block;
+    margin: -60px auto 0px;
+    padding: 0px 0px 0px;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+main .block{
+    position: relative;
+    margin: 8px auto 8px;
+    width: 80%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    width: 60%;
+    max-width: 1400px;
+    height: 125px;
+    margin: -10px auto 8px;
+    padding: 0px 5% 0px;
+}
