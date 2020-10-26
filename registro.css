@@ -27,6 +27,9 @@ header .enunciado {
     margin: -38px auto 0px 20%;
 }
 
+/*Display flex + justify content:space between para fazer os elementos serem divididos com um espaço 
+entre eles*/
+
 header .container-img {
     display: flex;
     justify-content: space-between;
