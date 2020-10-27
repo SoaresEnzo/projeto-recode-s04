@@ -102,6 +102,10 @@ main .margin_img{
 
 }
 
+main .margin_img2{
+    margin-right: -1800px;
+}
+
 main .apelido_data{
     display: flex;
     justify-content: space-between;    
@@ -116,11 +120,6 @@ main p{
     margin-left: -40px;
 }
 
-main .apelido2{
-    padding-right: 380px;
-    margin: 0px;
-
-}
 
 footer {
     display: flex;
