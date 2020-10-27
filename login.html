@@ -6,38 +6,35 @@
     <title>Login</title>
     <link rel="stylesheet" href="./globalforms.css">
     <link rel="stylesheet" href="./login.css">
-    <script src="./scripts/registro.js"></script>
+    <script src="./scripts/login.js"></script>
 </head>
 
 <body>
 
     <header>
         <div class=container-img>
-            <img src="./imagens/arrow-left-circle-fill.svg" alt="">
-            <img src="./imagens/instagram-fill.svg" alt="Logo">
+            <a href="index.html"><img src="./imagens/arrow-left-circle-fill.svg" alt="voltar"></a>
+            <img src="./imagens/instagram-fill.svg" alt="logo" />
         </div>
 
     </header>
 
     <div class="container-log">
-        <h1 id="titulo">Seus dados de login</h1>
-
+        <h1 id="titulo">Seja bem-vindo(a)!</h1>
+        <hr>
         <div class="link">
             <a href="registro.html">
            Ainda não tem uma conta?
            </a>
         </div>
-
-
-        <hr>
         <form action="#">
             <div class="log">
-                <label for="e-mail">E-mail</label>
-                <input type="text" name="e-mail">
+                <label for="email">E-mail</label>
+                <input id="email" type="text" placeholder="Digite seu e-mail">
             </div>
             <div class="log">
                 <label for="senha">Senha</label>
-                <input type="password" name="senha">
+                <input id="senha" type="password" placeholder="Digite sua senha">
             </div>
 
         </form>
@@ -47,10 +44,11 @@
             <div>
 
                 <footer>
-                    <button onclick="entrar()">Entrar</button>
+                    <button onclick="logar()">Entrar</button>
                 </footer>
             </div>
             </main>
+
 </body>
 
 </html>
