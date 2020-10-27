@@ -6,58 +6,114 @@
     <title>Denuncias</title>
     <link rel="stylesheet" href="./globalforms.css">
     <link rel="stylesheet" href="./stilo_denuncia.css">
-    
+
 </head>
 
 <body>
 
-    <header>  <!--Na header em CSS tem uma imagem de background-->
+    <header>
+        <!--Na header em CSS tem uma imagem de background-->
 
         <div class=imagem_voltar>
             <img src="./imagens/arrow-left-circle-fill.svg">
             <button onclick="enviar()">Fazer uma denuncia</button>
         </div>
         <div class="enunciado">
-            <h2>Pesquise denuncias pelo nome da empresa:</h2>
-            <input type="text" name="nome da empresa" placeholder="nome da empresa">
-            <button type="button">Pesquisar</button>
+            <h1>Pesquise denuncias pelo nome da empresa:</h1>
+            <div class="button_header">
+                <input type="text" name="nome da empresa" placeholder="nome da empresa">
+                <button type="button">Pesquisar</button>
+            </div>
+
         </div>
-        
+
     </header>
-    
+
     <main>
-        
+
         <div class="container">
-            
+
+            <h2 class="primeiro_h2">Minhas denúncias</h2>
+            <hr>
+
             <div class="block">
-                <h3 id="titulo">Nome da empresa</h3>
-                <h2>Título da denuncia aqui</h2>
-                <h4>Apelido</h4>
-                <h4>Data e Hora</h4>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
+
+                <div class="spy_titulos">
+
+                    <div class="margin_img">
+                        <img src="./imagens/spy-fill.png">
+                    </div>
+
+                    <div>
+                        <div class="teste">
+                            <h3>Nome da empresa</h3>
+                            <h2>Título da denuncia aqui</h2>
+                        </div>
+                        
+                        <div class="apelido_data">
+                            <div class="apelido"><h4>Apelido</h4></div>
+                            <div class="data"><h4>Data e Hora</h4></div>                            
+                        </div>
+                    </div>
+                                   
+
+                </div>   
+
+                <p>     
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget placerat massa, ut tincidunt
+                eros. Pellentesque ac lorem ipsum. Vestibulum dapibus pretium nisl in vehicula. Nulla ut justo
+                commodo, lobortis purus in, ultricies eros. Duis sodales, magna blandit dapibus iaculis, augue orci
+                dignissim sem, at luctus eros diam vitae ligula. Donec sit amet dui ultricies, vehicula libero ut,
+                ultrices nunc. Fusce laoreet hendrerit magna, sed rutrum neque egestas nec.
+                </p>            
+                               
             </div>
 
             <div class="block">
-                <h3 id="titulo">Avaliação</h3>
-                <h2>Resposta da empresa</h2>
-                <h4>Nome da empresa</h4> 
-                <h4>Data e Hora</h4>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
+
+                <div class="spy_titulos">
+
+                    <div class="margin_img">
+                        <img src="./imagens/building-2-fill.png"> 
+                    </div>
+
+                    <div>
+
+                        <div class="teste">
+                            <h3>Avaliação</h3>
+                            <h2>Resposta da empresa</h2>
+                        </div>
+
+                        <div class="apelido_data">
+                            <div class="apelido2"><h4>Nome da empresa</h4></div>
+                            <div class="data"><h4>Data e Hora</h4></div>
+                        </div> 
+
+                    </div> 
+
+                </div>
+                
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget placerat massa, ut tincidunt
+                    eros. Pellentesque ac lorem ipsum. Vestibulum dapibus pretium nisl in vehicula. Nulla ut justo
+                    commodo, lobortis purus in, ultricies eros. Duis sodales, magna blandit dapibus iaculis, augue orci
+                    dignissim sem, at luctus eros diam vitae ligula. Donec sit amet dui ultricies, vehicula libero ut,
+                    ultrices nunc. Fusce laoreet hendrerit magna, sed rutrum neque egestas nec.
+                </p>
+
             </div>
 
-            <div class="block">
-                <h3 id="titulo">Nome da empresa</h3>
-                <h2>Título da denuncia aqui</h2>
-                <h4>Apelido</h4>
-                <h4>Data e Hora</h4>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-            </div>
-            
+           
+
+            <footer>
+
+            </footer>
+
         </div>
-        <footer>
-            
-        </footer>
+
     </main>
+
+    
 
 </body>
 
